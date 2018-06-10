@@ -1,0 +1,35 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:8050/GetOrderbook?priceSourceName=Binance&primaryCoin=ADA&secondaryCoin=BNB
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Mono-HTTPAPI/1.0
+      Date:
+      - Sat, 11 Aug 2018 18:48:59 GMT
+      Content-Length:
+      - '4709'
+      Keep-Alive:
+      - timeout=15,max=100
+    body:
+      encoding: UTF-8
+      string: '{"ErrorCode":100,"ErrorMessage":"","Result":{"Timestamp":"2018-08-11T18:48:47.569987Z","PriceMarket":{"PriceSource":21,"PriceMarketType":0,"DisplayName":"Binance
+        ADA/BNB","ShortName":"ADA/BNB","ContractName":"","PrimaryCurrency":"ADA","SecondaryCurrency":"BNB"},"UnixLastUpdate":1534013327,"Bid":[{"Amount":2952.70000000,"Price":0.00953000},{"Amount":16331.00000000,"Price":0.00952000},{"Amount":29856.30000000,"Price":0.00951000},{"Amount":23799.90000000,"Price":0.00950000},{"Amount":5650.00000000,"Price":0.00949000},{"Amount":2132.60000000,"Price":0.00948000},{"Amount":5991.90000000,"Price":0.00947000},{"Amount":3779.50000000,"Price":0.00946000},{"Amount":2567.10000000,"Price":0.00945000},{"Amount":54270.40000000,"Price":0.00944000},{"Amount":8801.60000000,"Price":0.00943000},{"Amount":212.80000000,"Price":0.00942000},{"Amount":3232.50000000,"Price":0.00941000},{"Amount":47254.20000000,"Price":0.00940000},{"Amount":223.20000000,"Price":0.00938000},{"Amount":3536.70000000,"Price":0.00937000},{"Amount":1265.80000000,"Price":0.00935000},{"Amount":4364.10000000,"Price":0.00934000},{"Amount":6764.40000000,"Price":0.00933000},{"Amount":11029.10000000,"Price":0.00932000},{"Amount":6770.00000000,"Price":0.00931000},{"Amount":78900.30000000,"Price":0.00930000},{"Amount":10940.00000000,"Price":0.00929000},{"Amount":5434.50000000,"Price":0.00928000},{"Amount":5434.80000000,"Price":0.00927000},{"Amount":5000.00000000,"Price":0.00926000},{"Amount":33913.60000000,"Price":0.00925000},{"Amount":5000.00000000,"Price":0.00924000},{"Amount":7992.50000000,"Price":0.00923000},{"Amount":8069.10000000,"Price":0.00922000},{"Amount":7500.00000000,"Price":0.00921000},{"Amount":22681.20000000,"Price":0.00920000},{"Amount":7659.40000000,"Price":0.00919000},{"Amount":7737.10000000,"Price":0.00918000},{"Amount":5988.40000000,"Price":0.00917000},{"Amount":1772.90000000,"Price":0.00916000},{"Amount":30367.30000000,"Price":0.00915000},{"Amount":131.30000000,"Price":0.00914000},{"Amount":10853.30000000,"Price":0.00912000},{"Amount":27529.10000000,"Price":0.00910000},{"Amount":416.10000000,"Price":0.00908000},{"Amount":436.90000000,"Price":0.00906000},{"Amount":2314.00000000,"Price":0.00905000},{"Amount":9884.30000000,"Price":0.00902000},{"Amount":1748.80000000,"Price":0.00901000},{"Amount":39559.10000000,"Price":0.00900000},{"Amount":133.50000000,"Price":0.00899000},{"Amount":999.50000000,"Price":0.00898000},{"Amount":2261.40000000,"Price":0.00895000},{"Amount":557.70000000,"Price":0.00894000}],"Ask":[{"Amount":6122.80000000,"Price":0.00961000},{"Amount":35127.90000000,"Price":0.00963000},{"Amount":54514.00000000,"Price":0.00964000},{"Amount":108.80000000,"Price":0.00965000},{"Amount":1821.10000000,"Price":0.00966000},{"Amount":11213.10000000,"Price":0.00967000},{"Amount":9812.00000000,"Price":0.00968000},{"Amount":10228.20000000,"Price":0.00969000},{"Amount":3547.90000000,"Price":0.00970000},{"Amount":902.30000000,"Price":0.00972000},{"Amount":944.40000000,"Price":0.00973000},{"Amount":1507.10000000,"Price":0.00974000},{"Amount":1900.10000000,"Price":0.00975000},{"Amount":26376.10000000,"Price":0.00976000},{"Amount":3368.80000000,"Price":0.00977000},{"Amount":2968.00000000,"Price":0.00979000},{"Amount":247.20000000,"Price":0.00980000},{"Amount":630.60000000,"Price":0.00981000},{"Amount":3878.70000000,"Price":0.00982000},{"Amount":321224.80000000,"Price":0.00985000},{"Amount":6773.90000000,"Price":0.00986000},{"Amount":23689.40000000,"Price":0.00987000},{"Amount":511.00000000,"Price":0.00988000},{"Amount":36955.20000000,"Price":0.00989000},{"Amount":10663.00000000,"Price":0.00990000},{"Amount":7500.00000000,"Price":0.00991000},{"Amount":102.20000000,"Price":0.00992000},{"Amount":2263.60000000,"Price":0.00993000},{"Amount":1175.70000000,"Price":0.00994000},{"Amount":8593.20000000,"Price":0.00995000},{"Amount":1500.00000000,"Price":0.00996000},{"Amount":130.50000000,"Price":0.00997000},{"Amount":703.70000000,"Price":0.00999000},{"Amount":140597.10000000,"Price":0.01000000},{"Amount":382.00000000,"Price":0.01001000},{"Amount":113.10000000,"Price":0.01003000},{"Amount":745.10000000,"Price":0.01004000},{"Amount":30453.50000000,"Price":0.01005000},{"Amount":7617.30000000,"Price":0.01006000},{"Amount":2617.40000000,"Price":0.01007000},{"Amount":4064.10000000,"Price":0.01008000},{"Amount":738.00000000,"Price":0.01009000},{"Amount":300.00000000,"Price":0.01010000},{"Amount":2208.70000000,"Price":0.01011000},{"Amount":128.50000000,"Price":0.01012000},{"Amount":3288.10000000,"Price":0.01015000},{"Amount":5128.80000000,"Price":0.01020000},{"Amount":6537.30000000,"Price":0.01023000},{"Amount":7281.00000000,"Price":0.01024000},{"Amount":99.40000000,"Price":0.01025000}]}}'
+    http_version: 
+  recorded_at: Sat, 11 Aug 2018 18:48:59 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,34 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:8050/GetMinutePriceTicker?priceSourceName=Binance&primaryCoin=ADA&secondaryCoin=BNB
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Mono-HTTPAPI/1.0
+      Date:
+      - Sat, 11 Aug 2018 18:47:47 GMT
+      Content-Length:
+      - '269'
+      Keep-Alive:
+      - timeout=15,max=100
+    body:
+      encoding: UTF-8
+      string: '{"ErrorCode":100,"ErrorMessage":"","Result":{"TimeStamp":"2018-08-11T18:47:00.000255Z","UnixTimeStamp":1534013220,"CurrentBuyValue":0.00961000,"CurrentSellValue":0.00954000,"HighValue":0.00952000,"LowValue":0.00952000,"Open":0.00952000,"Close":0.00952000,"Volume":0.0}}'
+    http_version: 
+  recorded_at: Sat, 11 Aug 2018 18:47:47 GMT
+recorded_with: VCR 4.0.0

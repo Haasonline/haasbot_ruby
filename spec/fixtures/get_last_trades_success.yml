@@ -1,0 +1,34 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:8050/GetLastTrades?priceSourceName=Binance&primaryCoin=ADA&secondaryCoin=BNB
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Mono-HTTPAPI/1.0
+      Date:
+      - Sat, 11 Aug 2018 18:45:58 GMT
+      Content-Length:
+      - '3330'
+      Keep-Alive:
+      - timeout=15,max=100
+    body:
+      encoding: UTF-8
+      string: '{"ErrorCode":100,"ErrorMessage":"","Result":{"Timestamp":"2018-08-11T18:43:39.754492Z","UnixLastUpdate":1534013019,"LastTrades":[{"Timestamp":"2018-08-11T18:38:39","TradeType":2,"UnixTimestamp":1534012719,"Amount":500.70000000,"Price":0.00951000},{"Timestamp":"2018-08-11T18:38:41","TradeType":1,"UnixTimestamp":1534012721,"Amount":2033.00000000,"Price":0.00951000},{"Timestamp":"2018-08-11T18:38:43","TradeType":1,"UnixTimestamp":1534012723,"Amount":749.00000000,"Price":0.00951000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":59.70000000,"Price":0.00951000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":115385.50000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":5439.20000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":7565.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":113.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":2852.30000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":4952.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":3357.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":1284.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":2461.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":2461.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:45","TradeType":1,"UnixTimestamp":1534012725,"Amount":2033.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:38:51","TradeType":1,"UnixTimestamp":1534012731,"Amount":2033.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:39:18","TradeType":1,"UnixTimestamp":1534012758,"Amount":2033.00000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:39:27","TradeType":1,"UnixTimestamp":1534012767,"Amount":1222.10000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:39:39","TradeType":1,"UnixTimestamp":1534012779,"Amount":21461.70000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:40:11","TradeType":1,"UnixTimestamp":1534012811,"Amount":2516.90000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:40:43","TradeType":1,"UnixTimestamp":1534012843,"Amount":112.00000000,"Price":0.00951000},{"Timestamp":"2018-08-11T18:43:24","TradeType":1,"UnixTimestamp":1534013004,"Amount":89.50000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:43:24","TradeType":1,"UnixTimestamp":1534013004,"Amount":89.50000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:43:24","TradeType":1,"UnixTimestamp":1534013004,"Amount":89.50000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:43:24","TradeType":1,"UnixTimestamp":1534013004,"Amount":89.50000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:43:24","TradeType":1,"UnixTimestamp":1534013004,"Amount":89.50000000,"Price":0.00950000},{"Timestamp":"2018-08-11T18:45:16","TradeType":1,"UnixTimestamp":1534013116,"Amount":199.80000000,"Price":0.00952000}]}}'
+    http_version: 
+  recorded_at: Sat, 11 Aug 2018 18:45:58 GMT
+recorded_with: VCR 4.0.0
